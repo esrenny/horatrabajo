@@ -1,0 +1,11 @@
+import time
+
+while True:
+    ahora=time.strftime('%H:%M:%S')
+    hora=time.strftime('07:00:00')
+    print(ahora)
+    time.sleep(5)
+    if ahora>hora:
+        print('Hora de ir a casa')
+    else:
+        print("Siga trabajando")
